@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Heading, Link, Text, VStack } from "@chakra-ui/react";
-import { FaHome, FaLaptopCode, FaRobot, FaDatabase, FaUserPlus } from "react-icons/fa";
+import { FaHome, FaLaptopCode, FaRobot, FaDatabase, FaUserPlus, FaPen } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -26,6 +26,10 @@ const Index = () => {
           <Link href="/register" p={2} display="flex" alignItems="center">
             <FaUserPlus />
             <Text ml={2}>Register</Text>
+          </Link>
+          <Link href="/create-post" p={2} display="flex" alignItems="center">
+            <FaPen />
+            <Text ml={2}>Create Post</Text>
           </Link>
         </Flex>
       </Flex>
